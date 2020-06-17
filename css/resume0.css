@@ -1,0 +1,130 @@
+a {
+  color: white;/* set the text color to blue here */
+  text-decoration: none;
+  text-align: center;/* This means we do not want hyperlinks to be underlined */
+ }
+
+a:hover {
+  color: red;/* set the text color to red here */
+  text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+}
+
+footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.navbar h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 15px;
+  z-index: 1000;
+ }
+
+  .me{
+    background-color:grey;
+  }
+
+  h3{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 1rem;
+    letter-spacing: 0.2em;
+  }
+
+  #image{
+    text-align: center;
+    position: relative;
+    color: white;
+    background-color:Gainsboro;
+  }
+  #image img{
+    /*margin-top:5%;*/
+    height:95%;
+    width:98%;
+    /*border: 5px solid #555;*/
+  }
+  .centered{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-54%, -50%);
+  }
+  #image p{
+    font-size: 20px;
+    letter-spacing: 0.1em;
+  }
+  .btn {
+    background-color: white;
+    color:#464C57;
+    border-color: white;
+  }
+
+  .btn:hover{
+    background-color: white;
+    border-color: white;
+  }
+
+  #about{
+    background-color: Gainsboro;
+    text-align: center;
+    color:white;
+  }
+  #console {
+  width:670px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top:10px;
+  height: 620px;
+  margin:0 auto;
+  background: #383737;
+}
+#code {
+  border-radius: 5px;
+  width:750px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 0px;
+  padding-top:20px;
+  padding-bottom: 10px;
+  font-size:30px;
+  background:#ccc;
+  height: 650px;
+  font-family: 'Monaco', 'Courier New';
+  text-align: left;
+  font-size:13px;
+  color: #fafafa;
+}
+
+.title{
+    background-color:#464C57;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.title p{
+  font-size: 30px;
+  color:white;
+  text-align: center;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.button1{
+  background-color: white;
+  display: inline-block;
+}
+
+#Resume h3{
+  color:#464C57;
+  font-size:30px;
+  text-align: center;
+}
